@@ -45,3 +45,63 @@ d2Via2l0LWZpbHRlcicsIGNvbXB1dGVyRmlsdGVycygpKTsKCQkJZ2xhc3NlcyA9IGdsYXNzZXM \
 gKyAwLjAwMDAwMDAwMDAwMDE7CgkJfSk7Cgl9LCAzMDAwKTsKfQoKc2V0VGltZW91dChmdW5jdG \
 lvbigpIHsKCWRydW5raWZ5KGpRdWVyeSk7Cn0sIDEwMDApOw==                        "));
 ~~~~
+
+
+## Install
+
+    npm install allegory
+    
+Note: The code uses generators (--harmony flag)
+
+## How it works
+
+Write JavaScript in a file, say code.js
+
+~~~~ javascript
+function sayHii() {
+	alert("h!");
+}
+
+sayHii();
+~~~~
+
+And then draw something with * on another file, say template
+
+~~~~
+         ***           **     **
+        *****          **
+         ***           *****  **
+          *            ** **  **
+     ************      ** **  **
+          *            ** **  **
+          *
+          *
+         * *
+        *   *
+       *     *
+      *       *
+~~~~
+
+then you can
+
+    allegory code.js template
+    
+and you get
+
+~~~~
+eval(atob("\
+         ZnV           uY     3R \
+        pb24g          c2        \
+         F5S           GlpKC  kg \
+          e            wo JY  Wx \
+     lcnQoImghIik      7C n0  KC \
+          n            Nh eU  hp \
+          a                      \
+          S                      \
+         g p                     \
+        O   w                    \
+       o     =                   \
+                                "));
+~~~~
+
+Open your chrome console, copy/paste it, and you get an alert.
