@@ -1,9 +1,9 @@
 {
-  "name": "asciify",
-  "description": "Base 64 encode your JavaScript into an ascii image.",
+  "name": "allegory",
+  "description": "Turns your code into an executable image.",
   "author": "Michael Sokol <misokol123@gmail.com>",
   "version": "0.1.0",
-  "bin": "./bin/asciify",
+  "bin": "./bin/allegory",
   "dependencies": {
     "thunkify": "~0.0.1",
     "co": "~3.0.4",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:mikaa123/asciify.git"
+    "url": "git@github.com:mikaa123/allegory.git"
   },
   "license": "Beerware"
 }
