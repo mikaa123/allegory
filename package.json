@@ -1,0 +1,17 @@
+{
+  "name": "asciify",
+  "description": "Base 64 encode your JavaScript into an ascii image.",
+  "author": "Michael Sokol <misokol123@gmail.com>",
+  "version": "0.1.0",
+  "bin": "./bin/asciify",
+  "dependencies": {
+    "thunkify": "~0.0.1",
+    "co": "~3.0.4",
+    "colors": "~0.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mikaa123/asciify.git"
+  },
+  "license": "Beerware"
+}
